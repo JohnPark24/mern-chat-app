@@ -33,7 +33,7 @@ export const signup = async (req, res) => {
 			profilePic: gender === "male" ? boyProfilePic : girlProfilePic,
 		});
 
-        if (newUser) {
+		if (newUser) {
 			// Generate JWT token here
 			generateTokenAndSetCookie(newUser._id, res);
 			await newUser.save();
@@ -47,8 +47,7 @@ export const signup = async (req, res) => {
 		} else {
 			res.status(400).json({ error: "Invalid user data" });
 		}
-
-    } catch (error) {
+	} catch (error) {
 		console.log("Error in signup controller", error.message);
 		res.status(500).json({ error: "Internal Server Error" });
 	}

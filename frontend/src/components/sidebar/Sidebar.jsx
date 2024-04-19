@@ -14,7 +14,6 @@ const Sidebar = () => {
 };
 export default Sidebar;
 
-
 // STARTER CODE FOR THIS FILE
 // import Conversations from "./Conversations";
 // import LogoutButton from "./LogoutButton";
