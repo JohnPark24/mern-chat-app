@@ -6,7 +6,8 @@ This project is a real-time chat application built with the MERN (MongoDB, Expre
 It includes authentication using JSON Web Tokens (JWT), online user status indication, global state management with Zustand, and error handling on both the server and client sides. 
 The application utilizes TailwindCSS for styling with Daisy UI components.
 
-![Demo App](https://imgur.com/a/dS68hxN)
+[https://i.imgur.com/ai39fiM.png
+](https://i.imgur.com/ai39fiM.png)
 
 ### Link to Project
 
