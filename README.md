@@ -12,6 +12,29 @@ The application utilizes TailwindCSS for styling with Daisy UI components.
 
 [https://sheeepchat.onrender.com/](https://sheeepchat.onrender.com/)
 
+
+### Setup .env file
+
+```js
+PORT=...
+MONGO_DB_URI=...
+JWT_SECRET=...
+NODE_ENV=...
+```
+
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm start
+```
+
+
 ### How It's Made
 
 **Tech Used:** MongoDB, Express.js, React.js, Node.js, Socket.io, JWT, TailwindCSS, Daisy UI
